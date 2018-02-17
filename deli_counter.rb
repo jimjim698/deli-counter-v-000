@@ -19,3 +19,7 @@ def take_a_number(array,person)
   position = array.index(person)+1
   puts "Welcome, #{person}. You are number #{position} in line."
 end
+
+def now_serving(array)
+  
+end
