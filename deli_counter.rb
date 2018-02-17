@@ -13,3 +13,6 @@ def line(array)
     puts phrase
   end
 end
+
+def take_a_number(array,person)
+end
