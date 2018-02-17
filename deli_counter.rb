@@ -10,6 +10,6 @@ def line(array)
     phrase<< " #{counter}. #{person}"
       counter += 1
     end
-    phrase
+    puts phrase
   end
 end
