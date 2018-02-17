@@ -15,4 +15,7 @@ def line(array)
 end
 
 def take_a_number(array,person)
+  array<<person
+  array.index(person)+1 = position
+  puts "#{person} #{position}"
 end
