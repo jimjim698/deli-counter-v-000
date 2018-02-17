@@ -17,5 +17,5 @@ end
 def take_a_number(array,person)
   array<<person
   position = array.index(person)+1
-  puts "#{person} #{position}"
+  puts "Welcome, #{person}. You are number #{position} in line."
 end
