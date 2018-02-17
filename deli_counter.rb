@@ -5,10 +5,11 @@ def line(array)
   if array.length == 0
   puts "The line is currently empty."
       else
-    puts = "The line is currently:"
+    phrase = "The line is currently:"
     array.each do |person|
-  puts "#{counter}. #{person}"
-      counter +=1
+    phrase<< puts " #{counter}. person"
+      counter += 1
     end
+    phrase
   end
-end
+
