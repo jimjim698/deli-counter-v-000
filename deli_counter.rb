@@ -7,7 +7,7 @@ def line(array)
       else
     phrase = "The line is currently:"
     array.each do |person|
-    phrase<< " #{counter}.#{person}"
+    phrase<< " #{counter}. #{person}"
       counter += 1
     end
     phrase
